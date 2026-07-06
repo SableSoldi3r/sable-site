@@ -1,0 +1,31 @@
+@font-face {
+    font-family: DefaultFont;
+    src: url(font/Web437_IBM_VGA_8x16.woff)
+}
+
+body {
+    background-color: #000000;
+    background-image: url(img/trippystars.gif);
+    font-family: DefaultFont;
+    color: #ffffff;
+}
+
+a:link {
+    color: #d2d2e5;
+}
+a:visited {
+    color: #9797c3;
+}
+a:hover {
+    color: #ffffff;
+}
+
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-color: #4a4a80;
+    background-color: #4a4a80;
+    margin: 1em 0;
+    padding: 0;
+}
