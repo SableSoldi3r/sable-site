@@ -11,6 +11,35 @@ body {
     color: #ffffff;
 }
 
+#mainbox {
+    text-align: center;
+    margin: auto;
+    padding: 1em;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #4a4a80;
+    background-color: #111111
+}
+
+@media screen and (max-width:799px) {
+    /* Phone */
+    #mainbox {
+        width: 90%;
+        font-size: 2vmax;
+    }
+
+    .badge {
+        width: 20vmin;
+    }
+}
+
+@media screen and (min-width:800px) {
+    /* Computer */
+    #mainbox {
+        width: 640px
+    }
+}
+
 a:link {
     color: #d2d2e5;
 }
@@ -23,7 +52,7 @@ a:hover {
 
 hr {
     display: block;
-    height: 2px;
+    height: .25ch;
     border: 0;
     border-color: #4a4a80;
     background-color: #4a4a80;

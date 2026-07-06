@@ -11,21 +11,21 @@ window.addEventListener('load', function () {
     <a href="links.html">Links</a>`;
 
     footer.innerHTML = `
-    <img src="img/badge/developed.gif"/>
-    <img src="img/badge/handcoded.gif"/>
-    <img src="img/badge/fuckai.gif"/>
-    <img src="img/badge/linux.gif"/>
-    <img src="img/badge/cheevos.gif"/>
-    <img src="img/badge/firefox.gif"/>
-    <img src="img/badge/metroid.gif"/>
-    <img src="img/badge/icytower.gif"/>
-    <img src="img/badge/winamp.gif"/>
-    <img src="img/badge/piracy.gif"/>
-    <img src="img/badge/limewire.gif"/>
-    <img src="img/badge/kazaa.gif"/>
-    <img src="img/badge/flash.gif"/>
-    <img src="img/badge/shockwave.gif"/>
-    <img src="img/badge/tamagotchi.gif"/>
-    <img src="img/badge/ytjunkie.gif"/>
-    <img src="img/badge/allyourbase.gif"/>`;
+    <img class="badge" src="img/badge/developed.gif"/>
+    <img class="badge" src="img/badge/handcoded.gif"/>
+    <img class="badge" src="img/badge/fuckai.gif"/>
+    <img class="badge" src="img/badge/linux.gif"/>
+    <img class="badge" src="img/badge/cheevos.gif"/>
+    <img class="badge" src="img/badge/firefox.gif"/>
+    <img class="badge" src="img/badge/metroid.gif"/>
+    <img class="badge" src="img/badge/icytower.gif"/>
+    <img class="badge" src="img/badge/winamp.gif"/>
+    <img class="badge" src="img/badge/piracy.gif"/>
+    <img class="badge" src="img/badge/limewire.gif"/>
+    <img class="badge" src="img/badge/kazaa.gif"/>
+    <img class="badge" src="img/badge/flash.gif"/>
+    <img class="badge" src="img/badge/shockwave.gif"/>
+    <img class="badge" src="img/badge/tamagotchi.gif"/>
+    <img class="badge" src="img/badge/ytjunkie.gif"/>
+    <img class="badge" src="img/badge/allyourbase.gif"/>`;
 });
