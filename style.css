@@ -7,6 +7,7 @@ body {
     background-color: #000000;
     background-image: url(img/trippystars.gif);
     font-family: DefaultFont;
+    font-size: 1em;
     color: #ffffff;
 }
 
