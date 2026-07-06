@@ -7,11 +7,11 @@
     /* Phone */
     #mainbox {
     width: 80%;
-    font-size: 2.5vmax;
+    font-size: 2.2vmax;
     }
 
     .badge {
-        width: 20vmin;
+        width: 24vmin;
     }
 }
 
