@@ -6,8 +6,8 @@
 @media only screen and (pointer:coarse) {
     /* Phone */
     #mainbox {
-    width: 80%;
-    font-size: 2.2vmax;
+    width: 90%;
+    font-size: 2vmax;
     }
 
     .badge {
