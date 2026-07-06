@@ -3,6 +3,25 @@
     src: url(font/Web437_IBM_VGA_8x16.woff)
 }
 
+@media only screen and (pointer:coarse) {
+    /* Phone */
+    #mainbox {
+    width: 80%;
+    font-size: 2.5vmax;
+    }
+
+    .badge {
+        width: 20vmin;
+    }
+}
+
+@media only screen and (pointer:fine) {
+    /* Computer */
+    #mainbox {
+    width: 640px
+    }
+}
+
 body {
     background-color: #000000;
     background-image: url(img/trippystars.gif);
@@ -19,25 +38,6 @@ body {
     border-width: 5px;
     border-color: #4a4a80;
     background-color: #111111
-}
-
-@media only screen and (pointer:coarse) {
-    /* Phone */
-    #mainbox {
-        width: 90%;
-        font-size: 2.5vmax;
-    }
-
-    .badge {
-        width: 20vmin;
-    }
-}
-
-@media only screen and (pointer:fine) {
-    /* Computer */
-    #mainbox {
-        width: 640px
-    }
 }
 
 a:link {
