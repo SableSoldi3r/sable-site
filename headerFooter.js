@@ -4,7 +4,7 @@ const footer = document.querySelector('#footer');
 window.addEventListener('load', function () {
     header.innerHTML = `
     <span style="font-size:3em">Sable's Site</span><br/>
-    <img src="img/sable.gif"/>
+    <img src="img/napkin.gif"/>
     <hr/>
     <a href="index.html">About Me</a> -
     <a href="cheevos.html">Achievements</a> -
